@@ -1,0 +1,61 @@
+1. basic input and output
+for example:
+    a = 12
+    b = input()
+    print(a, b)
+2. string:
+        i. strings are immutable
+        ii. you can use f string to format or place data
+        for example:
+            a = input()
+            b = input()
+            print(f"this is {a} and this is {b})
+3. type conversion:
+    a = input()
+    b = int(a)
+    c = float(b)
+4. for loop:
+    for i in range(5):
+5. while loop:
+    while(i>5):
+    i++
+
+6. functions:
+    def function():
+        //statement
+        //return
+7. default paramters:
+    def function(a = 0, b = 0):
+        return a+b
+8. multiple returns:
+    //python allows multiple returns
+    def func():
+    return a,b
+    //in this case the python will return a tuple
+9. local scope and global scope:
+    //use global keyword to access the varible in local scope
+    num = 12
+    def func():
+        global num
+        num = num+2
+        return num
+10. list, list index, list slicing
+11. list methods:
+    i. 
+    ii.
+    iii.
+12. **kargs, *args:
+    def (**kargs):
+    def (*args):
+13. list comprehension
+14. string:(Immutable)
+15. tuple:(Immutable)
+16. set:(mutable)
+17. dictionary:(mutable)
+18. built in modules(time, math, random)
+19. external packages
+20. try, except, finally
+21. lambda functions
+22. file reading, writing, appending
+
+
